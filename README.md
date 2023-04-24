@@ -2,4 +2,4 @@
 
 ## Proyect
 
-https://mauricioraulferreyra.github.io/portfolio-layout-cv/
+https://mauricioraulferreyra.github.io/practice-design-responsive
