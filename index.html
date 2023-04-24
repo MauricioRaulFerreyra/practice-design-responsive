@@ -6,13 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Design Responsive</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto&display=swap"
-    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
   <header class="header">
     <section class="container">
       <div class="logo">
@@ -28,16 +26,31 @@
         </svg>
       </button>
       <nav class="menu">
-        <a href="#inicio">Inicio</a>
-        <a href="#acerca">Acerca</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#portafolio">Portafolio</a>
-        <a href="#testimonios">Testimonios</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
       </nav>
     </section>
   </header>
+
+  <section id="home" class="home">
+    <article class="hero-image" style="--hero-image: url('assets/hero-image-cv3.avif'); --hero-attachment: fixed;">
+      <aside class="hero-image-opacity" style="--hero-opacity-color: var(--black-alpha-color);">
+        <div class="hero-image-content">
+          <h2 class="hero-image-title" style="--hero-color: var(--white-color);">
+            Welcome
+            <br> to my site
+          </h2>
+          <a href="#contact" class="btn">CONTACT ME</a>
+        </div>
+      </aside>
+    </article>
+  </section>
+
   <script src="script.js"></script>
+
 </body>
 
 </html>
