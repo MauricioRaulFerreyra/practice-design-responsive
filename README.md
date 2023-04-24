@@ -2,4 +2,4 @@
 
 ## Proyect
 
-https://mauricioraulferreyra.github.io/practice-design-responsive
+[Landing Page practice](https://mauricioraulferreyra.github.io/practice-design-responsive)
