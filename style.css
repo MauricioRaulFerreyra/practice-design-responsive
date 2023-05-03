@@ -335,8 +335,9 @@ p {
 /************* MENU *************/
 
 .menu-btn {
-  outline: thin solid var(--first-color);
-  border: 0;
+  padding: 0;
+  outline: thick solid var(--first-color);
+  border: 1;
   cursor: pointer;
   background-color: var(--second-color);
   height: 3rem;
@@ -681,7 +682,7 @@ progress::-webkit-progress-value {
     position: sticky;
     top: 0;
     padding: 0.5rem;
-    height: calc(var(--header-height)-1rem);
+    height: calc(var(--header-height)-3rem);
   }
 
   .logo a {
