@@ -528,7 +528,7 @@ progress::-webkit-progress-value {
   border-bottom: thin solid var(--comodin-color);
   margin: 2rem auto;
   padding: 0.5rem 1rem;
-  width: 250px;
+  width: 350px;
   text-align: center;
   color: var(--title-color);
 }
@@ -538,9 +538,21 @@ progress::-webkit-progress-value {
   border-bottom: thin solid var(--comodin-color);
   margin: 2rem auto 0;
   padding: 0.5rem 1rem;
-  width: 350px;
+  width: 5vw;
   text-align: center;
   color: var(--white-color);
+}
+
+@media screen and (max-width: 768px) {
+  .section-title-proyects {
+    /* border-top: thin solid var(--comodin-color);
+    border-bottom: thin solid var(--comodin-color);
+    margin: 2rem auto 0;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    color: var(--white-color); */
+    width: 350px;
+  }
 }
 
 .text-center {
@@ -731,7 +743,7 @@ progress::-webkit-progress-value {
   h4 {
     padding: 0;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .header {
