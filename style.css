@@ -59,28 +59,20 @@ h1 {
 }
 
 h2 {
+  padding: 0.3rem;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 12vw;
 }
 
 h3 {
   margin: 0;
-  font-size: 1.25rem;
+  padding: 0;
 }
 
 h4 {
-  margin: 0.3rem;
-  font-size: 1rem;
-}
-
-h5 {
+  padding: 0.5rem;
   margin: 0;
-  font-size: 0.85rem;
-}
-
-h6 {
-  margin: 0;
-  font-size: 0.7rem;
+  font-size: 4.2vw;
 }
 
 img {
@@ -109,9 +101,9 @@ p {
 }
 
 .carousel label {
-  border: medium solid var(--gray-dark-color);
+  border: medium solid var(--white-color);
   border-radius: 50%;
-  margin: 1rem 0.5rem;
+  margin: 1rem;
   display: inline-block;
   width: 3rem;
   height: 3rem;
@@ -217,15 +209,15 @@ p {
 #slide-2:checked~.slides-nav label#dot-2,
 #slide-3:checked~.slides-nav label#dot-3,
 #slide-4:checked~.slides-nav label#dot-4 {
-  background-color: var(--gray-dark-color);
+  background-color: var(--white-color);
 }
 
 @media screen and (min-width:1024px) {
   .carousel label {
-    margin: 0 0.25rem;
+    margin: 1rem;
     display: inline-block;
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
   }
 }
 
@@ -336,9 +328,16 @@ p {
   background-color: var(--hero-opacity-color);
 }
 
+
 .hero-image-title {
-  font-size: 15vw;
   color: var(--hero-color);
+}
+
+@media screen and (min-width:780px) {
+  .hero-image-title {
+    font-size: 7.5vw;
+    color: var(--hero-color);
+  }
 }
 
 /************* MENU *************/
@@ -405,7 +404,7 @@ p {
 
   .menu a {
     padding: 0 1rem;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -491,13 +490,12 @@ progress::-webkit-progress-value {
 .btn {
   margin: 0.5rem;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: 0.3rem;
   display: inline-block;
-  width: 35vw;
+  width: 45vw;
   height: 10vh;
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: bold;
-  text-align: center;
   text-decoration: none;
   color: var(--white-color);
   background-color: var(--first-color);
@@ -542,7 +540,7 @@ progress::-webkit-progress-value {
   padding: 0.5rem 1rem;
   width: 250px;
   text-align: center;
-  color: var(--title-color);
+  color: var(--white-color);
 }
 
 .text-center {
@@ -668,7 +666,7 @@ progress::-webkit-progress-value {
     padding: 1rem;
     display: inline-block;
     width: 200px;
-    height: 50px;
+    height: 55px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -677,15 +675,25 @@ progress::-webkit-progress-value {
     background-color: var(--first-color);
   }
 
+  h2 {
+    font-size: 3vw;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 3vw;
+  }
+
+  h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+  }
+
   .contact-cards {
     display: grid;
     grid-template-columns: repeat(2, 48%);
     justify-content: space-between;
-  }
-
-  .hero-image-title {
-    font-size: 7.5vw;
-    color: var(--hero-color);
   }
 
   .services>.container {
@@ -716,11 +724,21 @@ progress::-webkit-progress-value {
     margin-bottom: 0;
   }
 
+  h3 {
+    font-size: 1.8vw;
+  }
+
+  h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+  }
+
   .header {
     position: sticky;
     top: 0;
     padding: 0.5rem;
-    height: calc(var(--header-height) - 2rem);
+    height: calc(var(--header-height) - 2.5rem);
   }
 
   .logo a {
