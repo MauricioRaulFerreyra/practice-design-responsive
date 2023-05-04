@@ -538,7 +538,7 @@ progress::-webkit-progress-value {
   border-bottom: thin solid var(--comodin-color);
   margin: 2rem auto 0;
   padding: 0.5rem 1rem;
-  width: 250px;
+  width: 350px;
   text-align: center;
   color: var(--white-color);
 }
@@ -666,7 +666,7 @@ progress::-webkit-progress-value {
     padding: 1rem;
     display: inline-block;
     width: 200px;
-    height: 55px;
+    height: 60px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
