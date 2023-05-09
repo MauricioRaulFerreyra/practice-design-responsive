@@ -631,7 +631,7 @@ progress::-webkit-progress-value {
   bottom: 0;
   z-index: 999;
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.1rem;
   height: var(--header-height);
   background-color: var(--second-color);
 }
@@ -775,7 +775,7 @@ progress::-webkit-progress-value {
   .header {
     position: sticky;
     top: 0;
-    padding: 0.5rem;
+    padding: 0.1rem;
     height: var(--header-height);
   }
 
