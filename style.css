@@ -341,6 +341,7 @@ p {
 /************* MENU *************/
 
 .menu-btn {
+  margin-right: 1rem;
   padding: 0;
   outline: 5px solid var(--first-color);
   border: 1;
