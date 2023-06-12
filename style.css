@@ -92,6 +92,10 @@ p {
   line-height: 1.6;
 }
 
+.paragraph {
+  font-size: 5vw;
+}
+
 /*************** COMPONENTS **************/
 
 /**********  CARROUSEL  *************/
@@ -791,6 +795,10 @@ progress::-webkit-progress-value {
 
   .logo a {
     font-size: 2rem;
+  }
+
+  .paragraph {
+    font-size: 1.2vw;
   }
 
   .section-title {
